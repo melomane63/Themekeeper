@@ -1,0 +1,17 @@
+{
+  "description": "Automatically manages light/dark themes and wallpapers based on Night Light",
+  "donations": {
+    "paypal": "melomane63"
+  },
+  "name": "ThemeKeeper",
+  "settings-schema": "org.gnome.shell.extensions.themekeeper",
+  "shell-version": [
+    "46",
+    "47",
+    "48",
+    "49"
+  ],
+  "url": "https://github.com/melomane63/Themekeeper.git",
+  "uuid": "themekeeper@melomane13",
+  "version": 1
+}

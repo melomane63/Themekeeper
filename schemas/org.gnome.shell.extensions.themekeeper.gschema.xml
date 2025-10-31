@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+
+  <schema id="org.gnome.shell.extensions.themekeeper"
+          path="/org/gnome/shell/extensions/themekeeper/">
+
+    <!-- Automatic mode -->
+    <key type="b" name="automatic-mode">
+      <default>true</default>
+      <summary>Automatic mode</summary>
+      <description>Enable/disable automatic mode based on Night Light</description>
+    </key>
+
+    <!-- Light theme (Day) -->
+    <key type="s" name="light-gtk-theme">
+      <default>'adw-gtk3'</default>
+      <summary>Light GTK theme</summary>
+      <description>GTK theme to use in day mode</description>
+    </key>
+
+    <key type="s" name="light-shell-theme">
+      <default>''</default>
+      <summary>Light Shell theme</summary>
+      <description>Shell theme to use in day mode</description>
+    </key>
+
+    <key type="s" name="light-icon-theme">
+      <default>'Adwaita-Teal'</default>
+      <summary>Light icon theme</summary>
+      <description>Icon theme to use in day mode</description>
+    </key>
+
+    <key type="s" name="light-cursor-theme">
+      <default>'Bibata-Modern-Classic'</default>
+      <summary>Light cursor theme</summary>
+      <description>Cursor theme to use in day mode</description>
+    </key>
+
+    <key type="s" name="light-accent-color">
+      <default>'teal'</default>
+      <summary>Light accent color</summary>
+      <description>Accent color to use in day mode</description>
+    </key>
+
+    <!-- Dark theme (Night) -->
+    <key type="s" name="dark-gtk-theme">
+      <default>'adw-gtk3-dark'</default>
+      <summary>Dark GTK theme</summary>
+      <description>GTK theme to use in night mode</description>
+    </key>
+
+    <key type="s" name="dark-shell-theme">
+      <default>'Darkwaita-main'</default>
+      <summary>Dark Shell theme</summary>
+      <description>Shell theme to use in night mode</description>
+    </key>
+
+    <key type="s" name="dark-icon-theme">
+      <default>'Adwaita-Green'</default>
+      <summary>Dark icon theme</summary>
+      <description>Icon theme to use in night mode</description>
+    </key>
+
+    <key type="s" name="dark-cursor-theme">
+      <default>'Bibata-Modern-Ice'</default>
+      <summary>Dark cursor theme</summary>
+      <description>Cursor theme to use in night mode</description>
+    </key>
+
+    <key type="s" name="dark-accent-color">
+      <default>'green'</default>
+      <summary>Dark accent color</summary>
+      <description>Accent color to use in night mode</description>
+    </key>
+
+  </schema>
+
+</schemalist>
+
