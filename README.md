@@ -9,7 +9,8 @@ It saves your current settings and applies the appropriate theme according to th
 - Monitors wallpaper changes to restore wallpapers associated with light and dark modes.
 - Integrates with Night Light to automatically apply the dark theme when Night Light is active.
 - Saves the current themes to custom DConf keys for light and dark modes.
-- Option to enable or disable automatic mode via DConf.
+- Option to enable or disable automatic mode via DConf. disable: dconf write /org/gnome/shell/extensions/themekeeper/automatic-mode false   enable: dconf write /org/gnome/shell/extensions/themekeeper/automatic-mode true
+
 
 ## Installation
 
