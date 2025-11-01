@@ -1,7 +1,7 @@
 # ThemeKeeper GNOME Extension
 
 ThemeKeeper is a GNOME Shell extension that automatically manages your themes and wallpapers based on light/dark mode and Night Light status.  
-It saves your current settings and applies the appropriate theme according to the ambient lighting.
+It saves current settings and applies then when changing style .
 
 ## Features
 
